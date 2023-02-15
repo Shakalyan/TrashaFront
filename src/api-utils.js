@@ -1,4 +1,4 @@
-export const backendHost = "http://localhost:8080";
+export const backendHost = "http://back:5000";
 
 export async function sendQuery(url, method, token = '') {
     return await fetch(url, {
