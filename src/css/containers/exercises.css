@@ -1,0 +1,57 @@
+.ExercisesContainer {
+    width: 100%;
+}
+
+.ExercisesControlPanel {
+    text-align: center;
+}
+
+.ExercisesList {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ExercisesListButton {
+    border: 2px solid #00b1b1;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+.TypingExerciseContainer {
+    width: 50%;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.TypingExerciseTextfield {
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.TypingExerciseInputField {
+    width: 100%;
+    font-size: 20px;
+    border: 2px #00b1b1 solid;
+    border-radius: 5px;
+    outline: none;
+    background-color: #181818;
+    color: white;
+}
+
+.ExercisesStatistics {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ExercisesStatisticsTextField {
+    font-size: 20px;
+    color: white;
+}

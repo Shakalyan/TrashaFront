@@ -1,0 +1,63 @@
+.TranslateMainDiv {
+    width: 100%;
+    height: 400px;
+    background-color: #181818;
+}
+
+.TranslateManagePanel {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.TranslateManageButton {
+    background-color: #181818;
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #00b1b1;
+    border-width: 1px;
+}
+
+.TranslateManageButton:hover {
+    color: #00b1b1;
+}
+
+.TranslateInputDiv {
+    width: 100%;
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.TranslateInput {
+    width: 40%;
+    height: 90%;
+    margin: auto 0;
+    border-color: #00b1b1;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    resize: none;
+}
+
+.TranslateInput:focus {
+    border-color: #00b1b1;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.TranslateInput::selection {
+    border-color: #00b1b1;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.TranslateLanguageField {
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+}
